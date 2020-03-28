@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 胡伟煌 
+title: forevercqd 
 subtitle: 个人博客
-author: 胡伟煌
+author: forevercqd
 language:
 timezone:
 
@@ -21,7 +21,7 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: 胡伟煌 | Blog
+SEOTitle: forevercqd | Blog
 email: e-mail_address
 description: ""
 keyword: ""
