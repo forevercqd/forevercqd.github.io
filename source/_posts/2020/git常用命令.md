@@ -5,6 +5,7 @@ date: 2020-03-28 22:10:20
 subtitle:
 header-img:
 tags:
+- Git
 ---
 
 
@@ -14,6 +15,27 @@ tags:
 
 
 # git常用命令
+## git bash 中文乱码
+Mac termianl 中 如果使用git进行命令操作，如果文件名是中文，会显示形乱码：
+```
+➜  2020 git:(blogSource) ✗ git status
+On branch blogSource
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   ../../../db.json
+	modified:   "2019-06-29-vim\346\255\243\345\210\231\350\241\250\350\276\276\345\274\217.md"
+	modified:   "git\345\270\270\347\224\250\345\221\275\344\273\244.md"
+```
+
+解决方案：
+```
+git config --global core.quotepath false
+```
+
+解释：
+core.quotepath设为false的话，就不会对0x80以上的字符进行quote
+
 
 ## 显示各分支及各commit关系
 ```
