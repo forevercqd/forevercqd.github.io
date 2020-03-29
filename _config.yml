@@ -232,5 +232,5 @@ sitemap:
 deploy:
   type: git
   repository: https://github.com/forevercqd/forevercqd.github.io.git
-  branch: gh-pages
-  message: Update CNAME
+  branch: master
+  message: 修改deploy 分支名
