@@ -420,9 +420,11 @@ parameter info: 函数输入参数提示 command + p;
         </h3>
         <div class="post-content-preview">
             git常用命令
-git bash 中文乱码
-Mac termianl 中 如果使用git进行命令操作，如果文件名是中文，会显示形乱码：
-12345678➜  2020 git:(blogSource) ✗ git statusOn branch blogSourceChanges to be committed:  (use &quot;git reset HEAD &lt;file&gt;......
+修改的代码行数统计
+
+查看代码增删行数
+
+1git log commit1..commit1 --author=&quot;用户名&quot; --pretty=tformat: --numstat | awk &apos;&#123; add += $1; subs += $2; loc += $1 - $2 &#125; END &#123; printf &quot;a......
         </div>
     </a>
     

@@ -2,57 +2,57 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
+        <loc>http://www.huweihuang.com/tags/Hexo/</loc>
+        <lastmod>2020-04-06T06:53:45.751Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://www.huweihuang.com/tags/Vim/</loc>
-        <lastmod>2020-03-28T17:31:02.185Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.huweihuang.com/tags/C/</loc>
-        <lastmod>2020-03-28T17:31:02.186Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.huweihuang.com/tags/Camera2/</loc>
-        <lastmod>2020-03-28T17:31:02.403Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.huweihuang.com/tags/Android-Studio/</loc>
-        <lastmod>2020-03-28T17:31:02.403Z</lastmod>
+        <lastmod>2020-04-06T06:53:45.874Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://www.huweihuang.com/tags/GitHub-blog/</loc>
-        <lastmod>2020-03-28T17:31:02.404Z</lastmod>
+        <lastmod>2020-04-06T06:53:45.897Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.huweihuang.com/tags/Git/</loc>
-        <lastmod>2020-03-28T17:31:02.406Z</lastmod>
+        <loc>http://www.huweihuang.com/tags/Camera2/</loc>
+        <lastmod>2020-04-06T06:53:45.942Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/tags/Android-Studio/</loc>
+        <lastmod>2020-04-06T06:53:46.373Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/tags/C/</loc>
+        <lastmod>2020-04-06T06:53:46.500Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://www.huweihuang.com/tags/webRTC/</loc>
-        <lastmod>2020-03-28T17:31:02.406Z</lastmod>
+        <lastmod>2020-04-06T06:53:46.578Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.huweihuang.com/tags/Hexo/</loc>
-        <lastmod>2020-03-28T17:32:11.705Z</lastmod>
+        <loc>http://www.huweihuang.com/tags/Git/</loc>
+        <lastmod>2020-04-13T07:30:08.829Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
