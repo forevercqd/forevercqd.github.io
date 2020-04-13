@@ -15,6 +15,18 @@ tags:
 
 
 # git常用命令
+## 修改的代码行数统计
+* 查看代码增删行数
+```
+git log commit1..commit1 --author="用户名" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
+```
+
+## 查看两次commit间的提交记录
+```
+git log commit1..commit2
+```
+Note. commit1 与 commit2间是两个英文".", 且没有空格;
+
 ## git bash 中文乱码
 Mac termianl 中 如果使用git进行命令操作，如果文件名是中文，会显示形乱码：
 ```
