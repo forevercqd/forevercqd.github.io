@@ -7,8 +7,32 @@
     </url>
 
     <url>
-        <loc>http://www.huweihuang.com/Android%E7%BB%9F%E8%AE%A1cpu%E4%B8%8E%E5%86%85%E5%AD%98%E4%BD%BF%E7%94%A8/</loc>
-        <lastmod>2020-05-22T07:01:46.412Z</lastmod>
+        <loc>http://www.huweihuang.com/find%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</loc>
+        <lastmod>2020-05-24T13:02:23.440Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/OES%E8%BD%ACTexture2D/</loc>
+        <lastmod>2020-05-24T11:35:35.962Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/Texture%E7%BA%B9%E7%90%86%E4%B8%8B%E8%BD%BD/</loc>
+        <lastmod>2020-05-23T15:39:47.300Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/FFmpeg%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</loc>
+        <lastmod>2020-05-23T15:38:54.784Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -16,7 +40,31 @@
 
     <url>
         <loc>http://www.huweihuang.com/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-        <lastmod>2020-04-13T07:30:08.829Z</lastmod>
+        <lastmod>2020-05-23T14:43:44.692Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/Docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+        <lastmod>2020-05-22T07:39:52.715Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/Atom%E6%8F%92%E4%BB%B6/</loc>
+        <lastmod>2020-05-22T07:10:36.730Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/Android%E7%BB%9F%E8%AE%A1cpu%E4%B8%8E%E5%86%85%E5%AD%98%E4%BD%BF%E7%94%A8/</loc>
+        <lastmod>2020-05-22T07:03:54.885Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

@@ -51,15 +51,50 @@
     </url>
 
     <url>
-        <loc>http://www.huweihuang.com/tags/Git/</loc>
-        <lastmod>2020-04-13T07:30:08.829Z</lastmod>
+        <loc>http://www.huweihuang.com/tags/Android/</loc>
+        <lastmod>2020-05-22T07:03:54.885Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.huweihuang.com/tags/Android/</loc>
-        <lastmod>2020-05-22T07:01:46.412Z</lastmod>
+        <loc>http://www.huweihuang.com/tags/Atom/</loc>
+        <lastmod>2020-05-22T07:10:36.730Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/tags/Docker/</loc>
+        <lastmod>2020-05-22T07:39:52.715Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/tags/Git/</loc>
+        <lastmod>2020-05-23T14:43:44.692Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/tags/FFmpeg/</loc>
+        <lastmod>2020-05-23T15:38:54.784Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/tags/OpenGL/</loc>
+        <lastmod>2020-05-24T11:35:35.962Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.huweihuang.com/tags/Linux/</loc>
+        <lastmod>2020-05-24T13:02:23.440Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

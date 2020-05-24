@@ -141,14 +141,14 @@
 
                         
                         <li>
-                            <a href="/tags/">Tags</a>
+                            <a href="/archive/">Archives</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/archive/">Archives</a>
+                            <a href="/tags/">Tags</a>
                         </li>
                         
                     
@@ -208,6 +208,208 @@
             
                 <!-- Main Content -->
 
+
+<div class="post-preview">
+
+    <a href="/find相关命令/">
+        <h2 class="post-title">
+                                 
+            find相关命令
+        </h2>
+        <h3 class="post-subtitle">
+            
+        </h3>
+        <div class="post-content-preview">
+            find相关命令
+查找时过滤命令:
+1find / -name &quot;build_ffmpeg.sh&quot; 2&gt;/dev/null | grep -v Permission
+/dev/null 表示禁止输出， 2&gt;/dev/null 表示所有的错误不输出。
+对查找后结果操作
+1find ./ -name &quot;build_ffmpeg.sh&quot; 2&gt......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by forevercqd on
+            2020-05-24
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#Linux" title="Linux">Linux</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/OES转Texture2D/">
+        <h2 class="post-title">
+                                 
+            OES转Texture2D
+        </h2>
+        <h3 class="post-subtitle">
+            
+        </h3>
+        <div class="post-content-preview">
+            OES转Texture2D
+具体可参考以下链接:
+https://blog.csdn.net/wzw88486969/article/details/53695903
+...
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by forevercqd on
+            2020-05-24
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#OpenGL" title="OpenGL">OpenGL</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/Texture纹理下载/">
+        <h2 class="post-title">
+                                 
+            Texture纹理下载
+        </h2>
+        <h3 class="post-subtitle">
+            
+        </h3>
+        <div class="post-content-preview">
+            Texture纹理下载
+java 版本
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152int dumpTextureToBmp(int textureId, int txtWidth, int txtHeight, String dumpFilePa......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by forevercqd on
+            2020-05-23
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#OpenGL" title="OpenGL">OpenGL</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/FFmpeg相关命令/">
+        <h2 class="post-title">
+                                 
+            FFmpeg相关命令
+        </h2>
+        <h3 class="post-subtitle">
+            
+        </h3>
+        <div class="post-content-preview">
+            FFmpeg相关命令
+音频采集转换
+44100 pcm 转　48000　文件;
+1ffmpeg -y -f s16le -ac 1 -ar 44100 -acodec pcm_s16le -i test.pcm -ar 48000 -f s16le out.pcm
+播放yuv
+1ffplay -pix_fmt nv12 -video_size 480x640 VTDecompressionO......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by forevercqd on
+            2020-05-22
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#FFmpeg" title="FFmpeg">FFmpeg</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/Docker常用命令/">
+        <h2 class="post-title">
+                                 
+            Docker常用命令
+        </h2>
+        <h3 class="post-subtitle">
+            
+        </h3>
+        <div class="post-content-preview">
+            Docker 相关命令
+设置 docker 镜像加速
+https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
+Mac 用户为例:
+需要扫码登录阿里云帐户，在&quot;容器镜像服务 --&gt; 镜像中心 --&gt; 镜像加速器&quot;，
+复制加速器地址, 然后操作如下:
+docker 图标，选择 Preferences ......
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by forevercqd on
+            2020-05-22
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#Docker" title="Docker">Docker</a>
+            
+        </div>
+    
+
+</div>
+<hr>
+
+<div class="post-preview">
+
+    <a href="/Atom插件/">
+        <h2 class="post-title">
+                                 
+            Atom插件
+        </h2>
+        <h3 class="post-subtitle">
+            
+        </h3>
+        <div class="post-content-preview">
+            atom 插件:
+列操作插件
+Sublime Style Column Selection
+大纲视图插件
+Document Outline
+预览插件
+markdown-preview-enhanced
+...
+        </div>
+    </a>
+    
+        <p class="post-meta" style="margin: 10px 0;">
+            Posted by forevercqd on
+            2020-05-22
+        </p>
+        <div class="tags">
+            
+              <a href="/tags/#Atom" title="Atom">Atom</a>
+            
+        </div>
+    
+
+</div>
+<hr>
 
 <div class="post-preview">
 
@@ -346,222 +548,16 @@ parameter info: 函数输入参数提示 command + p;
 </div>
 <hr>
 
-<div class="post-preview">
-
-    <a href="/Camera2-新特性/">
-        <h2 class="post-title">
-                                 
-            Camera2 新特性
-        </h2>
-        <h3 class="post-subtitle">
-            
-        </h3>
-        <div class="post-content-preview">
-            Camera2 新特性
-从 Android 5.0 开始，Google 引入了一套全新的相机框架 Camera2（android.hardware.camera2），并且废弃了旧的相机框架 Camera1(android.hardware.Camera)，其目的是配合Camera HAL3，同时赋予应用层更多更灵活的相机控制权限，从而构建出更高质量的相机应用程序。
-更先进灵活的API架构
-原......
-        </div>
-    </a>
-    
-        <p class="post-meta" style="margin: 10px 0;">
-            Posted by forevercqd on
-            2020-03-28
-        </p>
-        <div class="tags">
-            
-              <a href="/tags/#Camera2" title="Camera2">Camera2</a>
-            
-        </div>
-    
-
-</div>
-<hr>
-
-<div class="post-preview">
-
-    <a href="/Camera2广角计算/">
-        <h2 class="post-title">
-                                 
-            Camera2广角计算
-        </h2>
-        <h3 class="post-subtitle">
-            
-        </h3>
-        <div class="post-content-preview">
-            1234567891011121314151617public void calculateSensorAngle(CameraCharacteristics cc, String cameraID) &#123;    // 获取摄像头广角角度    SizeF sensorSize = cc.get(CameraCharacteristics.SENSOR_INFO_PHYSICAL_S......
-        </div>
-    </a>
-    
-        <p class="post-meta" style="margin: 10px 0;">
-            Posted by forevercqd on
-            2020-03-28
-        </p>
-        <div class="tags">
-            
-              <a href="/tags/#Camera2" title="Camera2">Camera2</a>
-            
-        </div>
-    
-
-</div>
-<hr>
-
-<div class="post-preview">
-
-    <a href="/github-blog-教程/">
-        <h2 class="post-title">
-                                 
-            github blog　教程
-        </h2>
-        <h3 class="post-subtitle">
-            
-        </h3>
-        <div class="post-content-preview">
-            github blog　教程
-下载blog仓库hexo源码
-1git clone https://github.com/forevercqd/hexo-theme-huweihuang.git
-部署和发布文章
-12hexo ghexo s
-建议：在使用 hexo g 部署之后，可以先使用 hexo s 运行本地站点，然后在浏览器输入地址 http://lacolhost:4000/ 查看运行......
-        </div>
-    </a>
-    
-        <p class="post-meta" style="margin: 10px 0;">
-            Posted by forevercqd on
-            2020-03-28
-        </p>
-        <div class="tags">
-            
-              <a href="/tags/#GitHub blog" title="GitHub blog">GitHub blog</a>
-            
-        </div>
-    
-
-</div>
-<hr>
-
-<div class="post-preview">
-
-    <a href="/git常用命令/">
-        <h2 class="post-title">
-                                 
-            git常用命令
-        </h2>
-        <h3 class="post-subtitle">
-            
-        </h3>
-        <div class="post-content-preview">
-            git常用命令
-修改的代码行数统计
-
-查看代码增删行数
-
-1git log commit1..commit1 --author=&quot;用户名&quot; --pretty=tformat: --numstat | awk &apos;&#123; add += $1; subs += $2; loc += $1 - $2 &#125; END &#123; printf &quot;a......
-        </div>
-    </a>
-    
-        <p class="post-meta" style="margin: 10px 0;">
-            Posted by forevercqd on
-            2020-03-28
-        </p>
-        <div class="tags">
-            
-              <a href="/tags/#Git" title="Git">Git</a>
-            
-        </div>
-    
-
-</div>
-<hr>
-
-<div class="post-preview">
-
-    <a href="/2019-06-29-vim正则表达式/">
-        <h2 class="post-title">
-                                 
-            2019-06-29-vim正则表达式
-        </h2>
-        <h3 class="post-subtitle">
-            
-        </h3>
-        <div class="post-content-preview">
-            
-删除指定字符&quot;abc&quot;前的所有内容
-
-1:%s/^.*\(abc.*\)/\1/g
-
-删除所有空行
-
-1:g/^\s*$/d
-
-删除行首指定数量的字符
-
-1:%s/^.\&#123;9\&#125;//g
-
-替换
-
-12:%s/vivian/sky/（等同于 :g/vivian/s//sky/） 替换每一行的第一个 vivian 为 sky:%s/vivian/sky/......
-        </div>
-    </a>
-    
-        <p class="post-meta" style="margin: 10px 0;">
-            Posted by forevercqd on
-            2020-03-28
-        </p>
-        <div class="tags">
-            
-              <a href="/tags/#Vim" title="Vim">Vim</a>
-            
-        </div>
-    
-
-</div>
-<hr>
-
-<div class="post-preview">
-
-    <a href="/hexo-theme-huweihuang/">
-        <h2 class="post-title">
-                                 
-            [Hexo] Theme HuWeihuang
-        </h2>
-        <h3 class="post-subtitle">
-            This is hexo theme Demo.
-        </h3>
-        <div class="post-content-preview">
-            
-This HuWeihuang theme created by HuWeihuang modified from the original Porter YuHsuan
-
-Live Demo
-Hu Weihuang Blog : www.huweihuang.com
-
-Install Hexo
-Install Node.js  and Git
-123#For Macbrew instal......
-        </div>
-    </a>
-    
-        <p class="post-meta" style="margin: 10px 0;">
-            Posted by forevercqd on
-            2017-09-18
-        </p>
-        <div class="tags">
-            
-              <a href="/tags/#Hexo" title="Hexo">Hexo</a>
-            
-        </div>
-    
-
-</div>
-<hr>
-
 
 
 <!-- Pager -->
 
 <ul class="pager">
     
+    
+        <li class="next">
+            <a href="/archives/2/">Older Posts &rarr;</a>
+        </li>
     
 </ul>
 
@@ -601,7 +597,19 @@ Install Node.js  and Git
             
         
             
+        
+            
             <a href="/tags/#Camera2" title="Camera2" rel="2">Camera2</a>
+            
+        
+            
+        
+            
+        
+            
+            <a href="/tags/#OpenGL" title="OpenGL" rel="2">OpenGL</a>
+            
+        
             
         
             
@@ -665,23 +673,23 @@ Install Node.js  and Git
     <ul>
       
         <li>
-          <a href="/Android统计cpu与内存使用/">Android统计cpu与内存使用</a>
+          <a href="/find相关命令/">find相关命令</a>
         </li>
       
         <li>
-          <a href="/webrtc调试/">webrtc调试</a>
+          <a href="/OES转Texture2D/">OES转Texture2D</a>
         </li>
       
         <li>
-          <a href="/C-模板/">C++模板</a>
+          <a href="/Texture纹理下载/">Texture纹理下载</a>
         </li>
       
         <li>
-          <a href="/android-studio-中基于“Eclipse-Mac-OSX-”-风格快捷键/">android studio 中基于“Eclipse(Mac OSX)” 风格快捷键</a>
+          <a href="/FFmpeg相关命令/">FFmpeg相关命令</a>
         </li>
       
         <li>
-          <a href="/Camera2-新特性/">Camera2 新特性</a>
+          <a href="/Docker常用命令/">Docker常用命令</a>
         </li>
       
     </ul>
@@ -708,7 +716,7 @@ Install Node.js  and Git
         
     <h5>ARCHIVES</h5>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a><span class="archive-list-count">1</span></li></ul>
     </div>
 
         <hr>
