@@ -15,6 +15,9 @@ tags:
 
 
 # git常用命令
+## 二分法查找
+git bisect start [终点] [起点]
+
 ## 修改的代码行数统计
 * 查看代码增删行数
 ```
@@ -219,3 +222,42 @@ remote: the work tree to HEAD.
 git init --bare:　不存在上述问题
 ## git 中　HEAD 用法
 用HEAD表示当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
+
+
+## git tag　在对应的分支上打印了的标签，该分支被删除后，该tag其实仍然存在，即tag相当于是新建了一个分支
+
+## git 别名使用
+在　 ~/.gitconfig 文件中添加以下
+```
+[alias]
+	st = status -s
+	ci = commit
+	l = log --oneline --decorate -12 --color
+	ll = log --oneline --decorate --color
+	lc = log --graph --color
+	co = checkout
+	br = branch
+	rb = rebase
+	dci = dcommit
+	sbi = submodule init
+	sbu = submodule update
+	sbp = submodule foreach git pull
+	sbc = submodule foreach git co master
+```
+
+## git submodule update --recursive　无法正常拉取代码, 解决办法
+* 解决办法1
+```
+git submodule init
+git submodule foreach git pull origin master:master
+```
+
+## 可以单独只更新某个分支
+```
+git submodule update sources/native/src
+```
+
+* 解决办法2
+```
+git submodule update --init --recursive
+```
